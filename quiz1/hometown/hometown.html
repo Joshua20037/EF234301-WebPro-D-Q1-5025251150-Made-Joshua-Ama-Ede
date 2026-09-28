@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="id">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Hometown - QUIZ 1 PWEB</title>
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+		<link rel="stylesheet" href="../style.css" />
+	</head>
+	<body class="min-h-screen bg-linear-to-b from-white to-blue-200">
+		<header class="border-b border-slate-200 text-slate-800">
+			<div class="flex w-full flex-col items-center justify-between gap-4 px-20 py-10 sm:flex-row">
+				<a class="text-4xl font-extrabold" href="/quiz1/index.html">Joshua's Page</a>
+				<nav aria-label="Navigasi utama">
+					<ul class="flex flex-wrap justify-center gap-x-6 gap-y-2 sm:justify-end text-lg font-medium">
+						<li><a class="hover:text-teal-700" href="/quiz1/index.html">Homepage</a></li>
+						<li><a class="hover:text-teal-700" href="/quiz1/profile/profile.html">Profile</a></li>
+						<li><a class="text-teal-700 font-bold" href="/quiz1/hometown/hometown.html">Hometown</a></li>
+						<li><a class="hover:text-teal-700" href="/quiz1/food/food.html">Local Food</a></li>
+						<li><a class="hover:text-teal-700" href="/quiz1/tourist/tourist.html">Tourist Places</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main class="flex min-h-[85vh] w-full flex-col items-center justify-center p-4 sm:p-8">
+			<div class="flex w-full max-w-[95%] min-h-[75vh] flex-col overflow-hidden rounded-3xl border-2 border-indigo-400 bg-white/40 shadow-xl lg:flex-row">
+				
+				<div class="relative flex w-full min-h-[300px] flex-col items-center justify-center bg-gradient-to-br from-indigo-300 to-teal-400 p-8 lg:w-5/12">
+					<div class="h-[400px] w-full max-w-sm overflow-hidden rounded-3xl border-4 border-white shadow-2xl md:h-[95%] md:max-w-md lg:max-w-[90%] lg:h-[95%]">
+						<img src="../assets/ilustrasi_bali.jpg" class="h-full w-full object-cover"/>
+					</div>
+
+				</div>
+
+
+				<div class="flex w-full flex-col justify-center p-8 lg:w-7/12 lg:p-16">
+					<div class="mb-4 w-fit rounded-full bg-indigo-200 px-4 py-1 text-sm font-extrabold uppercase tracking-widest text-indigo-800">
+						My Hometown
+					</div>
+					
+					<h2 class="text-5xl font-extrabold leading-tight text-slate-900 md:text-6xl lg:text-7xl">
+						<span class="bg-gradient-to-r from-teal-500 to-indigo-600 bg-clip-text text-transparent">Bali</span>, The Island <br>of Gods
+					</h2>
+					
+					<div class="mt-8 space-y-6 text-lg text-slate-700 md:text-xl lg:leading-relaxed">
+						<p>Bali is a globally renowned paradise island known for its breathtaking beaches, lush rice terraces, and deeply rooted Hindu culture. Its an unique place where traditional arts, majestic temples, and vibrant ceremonies are seamlessly woven into everyday life.
+						</p>
+						<p>Growing up here means being surrounded by warm hospitality, stunning sunsets, and a perfectly balanced lifestyle between nature and spirituality. Its more than just a famous tourist destination, its a home that constantly inspires and shapes who I am now.
+						</p>
+					</div>
+
+					<div class="mt-10">
+						<a href="/quiz1/food/food.html" class="inline-block bg-indigo-300 px-10 py-4 rounded-md font-semibold text-slate-800 transition duration-300 hover:bg-teal-700 hover:text-white text-2xl">
+							Explore Balinese Foods!
+						</a>
+					</div>
+				</div>
+			</div>
+
+		</main>
+	</body>
+</html>

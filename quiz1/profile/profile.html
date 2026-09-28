@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="id">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Profile - QUIZ 1 PWEB</title>
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+		<link rel="stylesheet" href="../style.css" />
+	</head>
+	<body class="min-h-screen bg-linear-to-b from-white to-blue-200">
+		<header class="border-b border-slate-200 text-slate-800">
+			<div class="flex w-full flex-col items-center justify-between gap-4 px-20 py-10 sm:flex-row">
+				<a class="text-4xl font-extrabold" href="/quiz1/index.html">Joshua's Page</a>
+				<nav aria-label="Navigasi utama">
+					<ul class="flex flex-wrap justify-center gap-x-6 gap-y-2 sm:justify-end
+					text-lg font-medium">
+						<li><a class="hover:text-teal-700" href="/quiz1/index.html">Homepage</a></li>
+						<li><a class="text-teal-700 font-bold" href="/quiz1/profile/profile.html">Profile</a></li>
+						<li><a class="hover:text-teal-700" href="/quiz1/hometown/hometown.html">Hometown</a></li>
+						<li><a class="hover:text-teal-700" href="/quiz1/food/food.html">Local Food</a></li>
+						<li><a class="hover:text-teal-700" href="/quiz1/tourist/tourist.html">Tourist Places</a></li>
+				</ul>
+			</nav>
+			</div>
+		</header>
+
+		<main class="flex min-h-[85vh] w-full items-center justify-center p-4 sm:p-8">
+			<div class="flex w-full max-w-[95%] min-h-[75vh] flex-col overflow-hidden rounded-3xl border-2 border-teal-500 bg-white/40 shadow-xl lg:flex-row">
+				<div class="relative flex w-full min-h-[300px] flex-col items-center justify-center bg-gradient-to-br from-teal-500 to-indigo-500 p-8 lg:w-2/5">
+					<div class="h-[400px] w-full max-w-sm overflow-hidden rounded-3xl border-4 border-white shadow-2xl md:h-[95%] md:max-w-md lg:max-w-[90%] lg:h-[95%]">
+						<img src="../assets/foto_joshua.jpg" class="h-full w-full object-cover"/>
+					</div>
+				</div>
+
+				<div class="flex w-full flex-col justify-center p-8 lg:w-3/5 lg:p-16">
+					<div class="mb-4 w-fit rounded-full bg-teal-100 px-4 py-1 text-sm font-extrabold uppercase tracking-widest text-teal-800">
+						About Me
+					</div>
+
+					<h1 class="font-extrabold bg-gradient-to-r from-teal-500 to-indigo-600 bg-clip-text text-transparent text-6xl md:text-7xl lg:text-8xl">
+						PROFILE
+					</h1>
+					
+					<div class="mt-8 space-y-6 text-lg text-slate-700 md:text-xl lg:leading-relaxed">
+						<p>Hello there! My name is Made Joshua Ama Ede, but you can simply call me <span class="font-bold text-slate-900">Joshua</span>. I was born on March 20, 2007. Currently, I am an undergraduate student pursuing my bachelor's degree (S1) in Informatics Engineering at Institut Teknologi Sepuluh Nopember (ITS).</p>
+						<p>I am originally from the beautiful island of <span class="font-bold text-slate-900">Bali</span> and have moved away from home to pursue my studies here. Through this website, I am really excited to share my journey with you and introduce all the fascinating things, rich culture, and hidden gems that my hometown has to offer!</p>
+						
+						<div class="pt-6">
+							<a href="/quiz1/hometown/hometown.html" class="inline-block bg-indigo-300 px-10 py-4 rounded-md font-semibold text-slate-800 transition duration-300 hover:bg-teal-700 hover:text-white text-2xl">
+								Explore BALI!
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
