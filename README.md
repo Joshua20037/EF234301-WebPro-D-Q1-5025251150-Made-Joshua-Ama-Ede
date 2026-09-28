@@ -1,1 +1,3 @@
-# Personal-Static-Website-Project---WEB-PROGRAMMING-QUIZ-1
+Name : Made Joshua Ama Ede
+NRP : 5025251150
+Class : D
